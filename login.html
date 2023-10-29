@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="login.css" />
+
+    <title>Form Cust</title>
+  </head>
+  <body>
+    <div class="global-container">
+      <div class="card login-form">
+        <div class="card-body">
+          <h1 class="card-title text-center">FORMULIR</h1>
+        </div>
+        <div class="card-text">
+          <form>
+            <div class="row">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4">
+              </div>
+              <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">Password</label>
+                <input type="password" class="form-control" id="inputPassword4">
+              </div>
+              <div class="col-md-6">
+                <label for="inputAddress" class="form-label">Alamat</label>
+                <input type="text" class="form-control" id="inputAlamat">
+              </div>
+              <div class="col-md-6">
+                <label for="inputAddress2" class="form-label">Detail Alamat</label>
+                <input type="text" class="form-control" id="inputAlamat2">
+              </div>
+              <div class="col-md-6">
+                <label for="inputCity" class="form-label">City</label>
+                <input type="text" class="form-control" id="inputCity">
+              </div>
+              </div>
+              
+              <div class="col-md-4">
+                <label for="inputState" class="form-label">State</label>
+                <select id="inputState" class="form-select">
+                  <option selected>Choose...</option>
+                  <option>...</option>
+                </select>
+              </div>
+            </div>
+
+            <span>Jenis Kelamin</span>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="JK1" id="JK1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                 Perempuan
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="JK2" id="JK2">
+                <label class="form-check-label" for="JK2">
+                 Laki-Laki
+                </label>
+              </div>           
+            <div class="d-grid gap-2">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
